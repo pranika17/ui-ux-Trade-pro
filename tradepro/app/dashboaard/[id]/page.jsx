@@ -236,11 +236,7 @@ const StockChart = ({ stock }) => {
         fallingColor: { strokeWidth: 0, fill: "#EF4444" },
         risingColor: { strokeWidth: 0, fill: "#10B981" },
       },
-      animation: {
-        startup: true,
-        // duration: 1000,
-        easing: "out",
-      },
+      
     }),
     []
   );
